@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 
 import com.mcgregor.boyall.object.Message;
-import com.mcgregor.boyall.utils.MessageService;
+import com.mcgregor.boyall.service.MessageService;
 
 @RunWith(JUnit4.class)
 public class MessageTests {

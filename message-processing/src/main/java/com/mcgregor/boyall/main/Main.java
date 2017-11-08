@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.mcgregor.boyall.object.Message;
-import com.mcgregor.boyall.utils.MessageService;
+import com.mcgregor.boyall.service.MessageService;
 
 public class Main {
 	

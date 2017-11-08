@@ -1,4 +1,4 @@
-package com.mcgregor.boyall.utils;
+package com.mcgregor.boyall.service;
 
 import java.util.List;
 import java.util.function.Function;
@@ -55,9 +55,9 @@ public class MessageService {
 	}
 
 	public Integer executeOperation(Integer x, Integer y, String operation) {
-		if (operation.equals(EnumOperationType.ADD)) {
+		if (operation.equals(String.valueOf(EnumOperationType.ADD))) {
 			return EnumOperation.ADD.eval(x, y);
-		} else if (operation.equals(EnumOperationType.SUBTRACT)) {
+		} else if (operation.equals(String.valueOf(EnumOperationType.SUBTRACT))) {
 			return EnumOperation.SUBTRACT.eval(x, y);
 		} else {
 			return EnumOperation.MULTUPLY.eval(x, y);
